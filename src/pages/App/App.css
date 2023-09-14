@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home,
+.intro,
+.projects,
+.contact {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.rest {
+  min-height: 1vh;
+  text-align: center;
+}
+
+.home {
+  background: #bee5bf;
+}
+.intro {
+  background: #dff3e3;
+}
+.projects {
+  background: #ffd1ba;
+}
+.contact {
+  background: #ce7da5;
+}
