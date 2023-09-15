@@ -1,9 +1,45 @@
-.contactInfo {
+.contactContainer {
+  border-radius: 5px;
+  background-color: #144272;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 50%;
+  margin: 0 auto;
+  width: 40%;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 40vh;
+}
+
+.links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.links > a > img {
+  width: 30px;
+  margin: 30px 30px 10px 30px;
+}
+
+.contactInfo > a {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  flex-direction: row;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.download-btn {
+  align-items: center;
+  background-color: rgb(110, 199, 255);
+  border-radius: 5px;
+  padding: 5px 30px 6px 30px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
 }

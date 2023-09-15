@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="text-box">
           <h2>Tesla Inc.</h2>
           <small>2019 - 2020</small>
-          <p>This is text underteaht whatever the above text is.</p>
+          <p>This is text underneath whatever the above text is.</p>
         </div>
       </div>
       <div className="container left-container">
         <div className="text-box">
           <h2>Toyota Inc.</h2>
           <small>2021 - 2022</small>
-          <p>This is text underteaht whatever the above text is.</p>
+          <p>This is text underneath whatever the above text is.</p>
         </div>
       </div>
     </div>
