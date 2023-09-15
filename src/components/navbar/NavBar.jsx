@@ -1,23 +1,7 @@
 import "./NavBar.css";
 import { links } from "../../pages/App/data.js";
-import { useState } from "react";
 
 const NavBar = () => {
-  //
-  const [changeScene, setChangeScene] = useState("lightMode");
-  //
-  function toggleSceneBtn() {
-    if (changeScene === "lightMode") {
-      setChangeScene("darkMode");
-      document.body.style.backgroundColor = "#121212";
-      document.body.style.color = "white";
-    } else {
-      setChangeScene("lightMode");
-      document.body.style.backgroundColor = "white";
-      document.body.style.color = "black";
-    }
-  }
-
   const handleClick = (e) => {
     e.preventDefault();
     const target = e.target.getAttribute("href");
@@ -25,14 +9,13 @@ const NavBar = () => {
 
     window.scrollTo({
       left: 0,
-      top: location - 5,
+      top: location - 65,
     });
     console.log(location);
   };
 
   return (
     <nav className="navbar sticky">
-      <a id="changeSceneBtn" onClick={toggleSceneBtn} />
       <div>
         {links.map((link) => {
           return (

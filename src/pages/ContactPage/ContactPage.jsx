@@ -1,8 +1,15 @@
+import "./ContactPage.css";
+
 const ContactPage = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <h5>Gabriel Gomez</h5>
+    <div className="contactContainer">
+      <div className="contactInfo">
+        <h1>Contact Information</h1>
+        <a>LinkedIn</a>
+        <a>Instagram</a>
+        <a>GitHub</a>
+        <h5>Email: gabegomez419@gmail.com</h5>
+      </div>
     </div>
   );
 };

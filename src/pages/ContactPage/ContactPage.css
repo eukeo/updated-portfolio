@@ -1,0 +1,9 @@
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}

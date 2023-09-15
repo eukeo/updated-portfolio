@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  background-color: #414141;
+  color: white;
 }
 
 .home,
@@ -16,14 +18,14 @@ html {
 }
 
 .home {
-  background: #bee5bf;
+  background: #414141;
 }
 .intro {
-  background: #dff3e3;
+  background: #cc8686;
 }
 .projects {
-  background: #ffd1ba;
+  background: #414141;
 }
 .contact {
-  background: #ce7da5;
+  background: #991111;
 }

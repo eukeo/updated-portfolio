@@ -1,0 +1,29 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.container {
+  /* padding: 10px 50px; */
+  position: relative;
+  width: 50%;
+  background-color: #525252;
+}
+
+.text-box {
+  padding: 20px 30px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
