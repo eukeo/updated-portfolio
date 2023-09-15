@@ -3,8 +3,8 @@ import "./ContactPage.css";
 const ContactPage = () => {
   return (
     <div className="contactContainer">
-      {/* <section className="contactInfo">
-        <h4 id="info">Contact</h4>
+      <section className="contactInfo">
+        <h4 id="info">Personal Links</h4>
         <div className="links">
           <a href="https://www.linkedin.com/in/gabrielgomez-" target="_blank">
             <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"></img>
@@ -24,7 +24,7 @@ const ContactPage = () => {
         >
           Resume
         </a>
-      </section> */}
+      </section>
       <form>
         <h3>Get In Touch</h3>
         <input type="text" id="name" placeholder="Your Name" required></input>
