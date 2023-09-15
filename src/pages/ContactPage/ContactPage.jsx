@@ -4,7 +4,11 @@ const ContactPage = () => {
   return (
     <div className="contactContainer">
       <section className="contactInfo">
-        <h4 id="info">Personal Links</h4>
+        <h3 className="linkTitle">Personal Links</h3>
+        <img
+          src="https://avatars.githubusercontent.com/u/99705240?v=4"
+          className="profilePicture"
+        ></img>
         <div className="links">
           <a href="https://www.linkedin.com/in/gabrielgomez-" target="_blank">
             <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"></img>
@@ -15,18 +19,17 @@ const ContactPage = () => {
           <a href="https://github.com/eukeo" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></img>
           </a>
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vSG_u6o5FJqckN50az6h5NaaLIMKjy4y3JtolpViCDd7-WhNU0SJb_PZ6izUPxsoDIpr7C5DWty9Uto/pub"
+            download="Gabriel-Gomez-Resume"
+            target="_blank"
+          >
+            <img src="https://cdn-icons-png.flaticon.com/512/1250/1250696.png"></img>
+          </a>
         </div>
-        <a
-          href="https://docs.google.com/document/d/e/2PACX-1vSG_u6o5FJqckN50az6h5NaaLIMKjy4y3JtolpViCDd7-WhNU0SJb_PZ6izUPxsoDIpr7C5DWty9Uto/pub"
-          download="Gabriel-Gomez-Resume"
-          className="download-btn"
-          target="_blank"
-        >
-          Resume
-        </a>
       </section>
       <form>
-        <h3>Get In Touch</h3>
+        <h3>Contact</h3>
         <input type="text" id="name" placeholder="Your Name" required></input>
         <input type="email" id="email" placeholder="Email" required></input>
         <input

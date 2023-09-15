@@ -1,9 +1,10 @@
 .contactContainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-evenly;
   width: 100%;
+  padding-top: 25px;
 }
 
 form {
@@ -17,8 +18,8 @@ form {
 }
 
 form h3 {
-  color: #ffffff;
-  font-weight: 800;
+  color: black;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
@@ -28,9 +29,9 @@ form textarea {
   margin: 10px 0;
   padding: 10px;
   outline: none;
-  background-color: #030f1c;
-  font-size: 16px;
-  color: white;
+  background-color: #e8e8e8;
+  /* font-size: 16px; */
+  border-radius: 3px;
 }
 
 form button {
@@ -48,6 +49,17 @@ form button {
 
 .contactInfo {
   width: 20%;
+  color: black;
+}
+
+.linkTitle {
+  font-weight: 400;
+}
+
+.profilePicture {
+  width: 70%;
+  margin-bottom: 15px;
+  border-radius: 50%;
 }
 
 .links {
@@ -57,13 +69,13 @@ form button {
   flex-direction: row;
   background-color: #ffffff;
   border-radius: 5px;
-  border: 1px solid rgb(110, 199, 255);
+  border: 1px solid #030f1c;
   height: 7vh;
 }
 
 .links > a > img {
   width: 25px;
-  opacity: 55%;
+  opacity: 65%;
 }
 
 .contactInfo > a {
@@ -77,26 +89,12 @@ form button {
   margin-top: 10px;
 }
 
-.download-btn {
-  align-items: center;
-  background-color: #266399;
-  border-radius: 5px;
-  padding: 5px 25px 6px 25px;
-  margin: auto;
-  text-decoration: none;
-  color: white;
-  justify-content: center;
-}
-
 .links > a > img:hover {
   opacity: 100%;
   scale: 1px;
-}
-
-.download-btn:hover {
-  background-color: #266399;
+  transform: scale(1.1);
 }
 
 form > button:hover {
-  background-color: #aa702d;
+  background-color: #c97514;
 }

@@ -21,7 +21,9 @@ export default function App() {
       <section className="contact" id="contact">
         <ContactPage />
       </section>
-      <section className="rest"></section>
+      <section className="rest">
+        <h6>Last Updated: September 15th, 2023</h6>
+      </section>
     </main>
   );
 }
