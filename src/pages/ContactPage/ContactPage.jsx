@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <div className="contactContainer">
       <section className="contactInfo">
-        <h3 className="linkTitle">Personal Links</h3>
+        <h3 className="info">Personal Links</h3>
         <img
           src="https://avatars.githubusercontent.com/u/99705240?v=4"
           className="profilePicture"
