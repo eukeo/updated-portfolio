@@ -4,6 +4,7 @@ import IntroPage from "../IntroPage/IntroPage";
 import Projects from "../ProjectsPage/ProjectsPage";
 import ContactPage from "../ContactPage/ContactPage";
 import HomePage from "../HomePage/HomePage";
+import PhotographyPage from "../PhotographyPage/PhotographyPage";
 
 export default function App() {
   return (
@@ -17,6 +18,9 @@ export default function App() {
       </section>
       <section className="projects" id="projects">
         <Projects />
+      </section>
+      <section className="photography" id="photography">
+        <PhotographyPage />
       </section>
       <section className="contact" id="contact">
         <ContactPage />

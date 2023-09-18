@@ -5,8 +5,8 @@ const IntroPage = () => {
     <div className="aboutMe">
       <h1>About Me</h1>
       <h5>
-        Welcome, my name is Gabriel Gomez and I am a 29-year-old Software
-        Engineer living in Los Angeles, California. My passion for technology,
+        Welcome, my name is Gabriel Gomez and I am a 29-year-old Front-End
+        Developer living in Los Angeles, California. My passion for technology,
         specifically Front-End Development, was sparked at a young age through
         my interest and passion for art. After exploring various career paths, I
         decided to attend General Assembly to immerse myself in the field. The

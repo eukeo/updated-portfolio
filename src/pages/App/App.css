@@ -7,6 +7,7 @@ html {
 .home,
 .intro,
 .projects,
+.photography,
 .contact {
   min-height: 100vh;
   text-align: center;
@@ -28,6 +29,10 @@ html {
 .projects {
   background: #030f1c;
 }
+.photography {
+  background: #030f1c;
+}
+
 .contact {
   background-image: url("https://www.pnghq.com/wp-content/uploads/ocean-wave-png-free-images-with-transparent-background-1-68360.png");
   background: #ffffff;
