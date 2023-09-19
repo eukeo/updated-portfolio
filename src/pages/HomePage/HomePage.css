@@ -7,3 +7,26 @@
 .profilePicture {
   width: 35%;
 }
+
+.resumeLink {
+  /* text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  background-color: #266399;
+  border-radius: 30px; */
+  text-decoration: none;
+  padding: 8px 15px 9px 15px;
+  background-color: #266399;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+.resumeLink:hover {
+  background-color: #c97514;
+}
