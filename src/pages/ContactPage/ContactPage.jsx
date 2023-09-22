@@ -1,12 +1,19 @@
+import { useEffect } from "react";
 import "./ContactPage.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ContactPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="contactContainer">
-      <section className="contactInfo">
+      <section className="contactInfo" data-aos="fade-down">
         <h3 className="info">Personal Links</h3>
         <img
-          src="https://avatars.githubusercontent.com/u/99705240?v=4"
+          src="https://i.imgur.com/355Ldfm.jpeg"
           className="profilePicture"
         ></img>
         <div className="links">
@@ -28,7 +35,7 @@ const ContactPage = () => {
           </a>
         </div>
       </section>
-      <form>
+      <form data-aos="fade-down">
         <h3>Contact</h3>
         <input type="text" id="name" placeholder="Your Name" required></input>
         <input type="email" id="email" placeholder="Email" required></input>

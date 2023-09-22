@@ -6,9 +6,7 @@
 
 .myName {
   display: inline-flex;
-  margin: auto;
-  width: 80%;
-  /* border: 1px solid red; */
+  /* width: 80%; */
 }
 
 .last {

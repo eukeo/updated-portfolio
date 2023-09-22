@@ -11,10 +11,10 @@ const Projects = () => {
   return (
     <div className="timeline">
       <div className="container left-container" data-aos="flip-up">
-        {/* <img
+        <img
           className="middleLogo"
           src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-alexa-style-blog-pokemon-inspired-charmander-daily-8.png"
-        /> */}
+        />
         <div className="text-box">
           <h2>Pokémon Universe</h2>
           <div className="projectLinks">
@@ -49,10 +49,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="container right-container" data-aos="flip-up">
-        {/* <img
+        <img
           className="middleLogo"
           src="https://icons.iconarchive.com/icons/graphicloads/100-flat/256/note-icon.png"
-        /> */}
+        />
         <div className="text-box">
           <h2>What To Do?</h2>
           <div className="projectLinks">
@@ -85,10 +85,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="container left-container" data-aos="flip-up">
-        {/* <img
+        <img
           className="middleLogo"
           src="https://cdn-icons-png.flaticon.com/512/882/882998.png"
-        /> */}
+        />
         <div className="text-box">
           <h2>In My Mind</h2>
           <div className="projectLinks">

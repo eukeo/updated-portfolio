@@ -1,10 +1,17 @@
 import "./IntroPage.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const IntroPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="aboutMe">
       <h1>About Me</h1>
-      <h5>
+      <h5 data-aos="zoom-in">
         Welcome, my name is Gabriel Gomez and I am a 29-year-old Front-End
         Developer living in Los Angeles, California. My passion for technology,
         specifically Front-End Development, was sparked at a young age through
