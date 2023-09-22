@@ -1,0 +1,17 @@
+.photography {
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.photography img {
+  margin: auto;
+  width: 25%;
+  opacity: 40%;
+}
+
+.photography img:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: 2ms ease-in-out;
+}
