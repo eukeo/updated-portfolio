@@ -9,7 +9,21 @@ const Projects = () => {
           src="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-alexa-style-blog-pokemon-inspired-charmander-daily-8.png"
         />
         <div className="text-box">
-          <h2>Pokemon Universe</h2>
+          <h2>Pokémon Universe</h2>
+          <div className="projectLinks">
+            <a
+              href="https://pokemon-tcg-production.up.railway.app/"
+              target="_blank"
+            >
+              <img
+                src="https://railway.app/brand/logo-dark.png"
+                className="railwayLogo"
+              ></img>
+            </a>
+            <a href="https://github.com/eukeo/pokemon-tcg" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png"></img>
+            </a>
+          </div>
           <div className="techUsed">
             <img src="https://icons.veryicon.com/png/o/internet--web/internet-simple-icon/api-management.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>
@@ -34,6 +48,20 @@ const Projects = () => {
         />
         <div className="text-box">
           <h2>What To Do?</h2>
+          <div className="projectLinks">
+            <a
+              href="https://todo-list-reboot-production.up.railway.app/ "
+              target="_blank"
+            >
+              <img
+                src="https://railway.app/brand/logo-dark.png"
+                className="railwayLogo"
+              ></img>
+            </a>
+            <a href="https://github.com/eukeo/todo-list-reboot" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png"></img>
+            </a>
+          </div>
           <div className="techUsed">
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>
@@ -56,6 +84,20 @@ const Projects = () => {
         />
         <div className="text-box">
           <h2>In My Mind</h2>
+          <div className="projectLinks">
+            <a
+              href="https://mental-health-production.up.railway.app/"
+              target="_blank"
+            >
+              <img
+                src="https://railway.app/brand/logo-dark.png"
+                className="railwayLogo"
+              ></img>
+            </a>
+            <a href="https://github.com/eukeo/mental-health" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png"></img>
+            </a>
+          </div>
           <div className="techUsed">
             <img src="https://icons.veryicon.com/png/o/internet--web/internet-simple-icon/api-management.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>

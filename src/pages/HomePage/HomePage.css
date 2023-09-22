@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+.homeContainer h1 {
+  font-weight: 400;
+}
+
 .profilePicture {
   width: 35%;
 }
