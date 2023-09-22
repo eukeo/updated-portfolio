@@ -1,23 +1,35 @@
 .homeContainer {
-  /* border: 1px solid red; */
-  width: 40%;
+  width: 90%;
   margin: auto;
+  /* border: 1px solid aqua; */
 }
 
-.homeContainer h1 {
-  font-weight: 400;
+.myName {
+  display: inline-flex;
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid red; */
+}
+
+.last {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  margin-left: 10px;
+}
+
+.first,
+.last {
+  font-size: 124px;
+  font-family: "Righteous", cursive;
 }
 
 .profilePicture {
   width: 35%;
+  border-radius: 2%;
 }
 
 .resumeLink {
-  /* text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  background-color: #266399;
-  border-radius: 30px; */
   text-decoration: none;
   padding: 8px 15px 9px 15px;
   background-color: #266399;
