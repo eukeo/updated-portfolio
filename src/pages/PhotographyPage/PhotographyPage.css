@@ -1,5 +1,12 @@
-.photography {
+/* .photography {
   margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+
+.leftContainer {
+  border: 1px solid cyan;
+  width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -7,4 +14,11 @@
 .photography img {
   margin: auto;
   width: 25%;
+  filter: grayscale(100%);
+  /* filter: blur(1px); */
+}
+
+.photography img:hover {
+  transition: filter 0.8s ease; /* Add a smooth transition effect */
+  filter: grayscale(0%);
 }
