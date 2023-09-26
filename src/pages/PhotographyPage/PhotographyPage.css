@@ -12,10 +12,13 @@
 }
 
 .photography img {
-  margin: auto;
+  /* margin: auto; */
   width: 25%;
   filter: grayscale(100%);
   /* filter: blur(1px); */
+  /* border: px solid white; */
+  border-radius: 10px;
+  margin: 15px;
 }
 
 .photography img:hover {
