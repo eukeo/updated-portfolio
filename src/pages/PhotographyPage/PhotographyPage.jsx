@@ -35,10 +35,31 @@ const PhotographyPage = () => {
           </div>
         </div>
       </div>
-      <img data-aos="zoom-in" src="https://i.imgur.com/xh8cZ0L.jpeg"></img>
-      <img data-aos="zoom-in" src="https://i.imgur.com/cMAuoRX.jpeg"></img>
-      <img data-aos="zoom-in" src="https://i.imgur.com/KFLy88o.jpeg"></img>
-      <img data-aos="zoom-in" src="https://i.imgur.com/RLq9qW6.jpeg"></img>
+      <div className="bottomSection">
+        <div className="leftContainer-2">
+          <div className="imageContainer">
+            <img
+              data-aos="zoom-in"
+              src="https://i.imgur.com/xh8cZ0L.jpeg"
+            ></img>
+            <img
+              data-aos="zoom-in"
+              src="https://i.imgur.com/cMAuoRX.jpeg"
+            ></img>
+            <img
+              data-aos="zoom-in"
+              src="https://i.imgur.com/KFLy88o.jpeg"
+            ></img>
+            <img
+              data-aos="zoom-in"
+              src="https://i.imgur.com/RLq9qW6.jpeg"
+            ></img>
+          </div>
+        </div>
+        <div className="rightContainer-2">
+          <img data-aos="zoom-in" src="https://i.imgur.com/cXhoOoB.jpeg"></img>
+        </div>
+      </div>
     </div>
   );
 };

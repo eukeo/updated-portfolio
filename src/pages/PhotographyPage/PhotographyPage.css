@@ -1,17 +1,13 @@
-.photography {
-  border: 1px solid red;
-}
-
 .topSection {
-  border: 1px solid yellow;
+  padding-left: 7%;
+  /* border: 1px solid yellow; */
   width: 75%;
   margin: auto;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: inline-flex;
 }
 
 .leftContainer {
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
   width: 25%;
 }
 
@@ -20,10 +16,42 @@
 }
 
 .rightContainer {
-  border: 1px solid rgb(60, 182, 32);
-  width: 50%;
+  /* border: 1px solid rgb(60, 182, 32); */
+  width: 70%;
 }
 
 .rightContainer img {
-  width: 50%;
+  width: 35%;
+  padding-bottom: 6%;
+  padding-left: 3%;
+  margin: 0%;
+}
+
+.bottomSection {
+  padding-left: 7%;
+  border: 1px solid yellow;
+  width: 75%;
+  margin: auto;
+  display: inline-flex;
+}
+
+.leftContainer-2 {
+  border: 1px solid cyan;
+  width: 70%;
+}
+
+.leftContainer-2 img {
+  width: 35%;
+}
+
+.rightContainer-2 {
+  border: 1px solid rgb(60, 182, 32);
+  width: 25%;
+}
+
+.rightContainer-2 img {
+  width: 100%;
+  padding-bottom: 6%;
+  padding-left: 3%;
+  margin: 0%;
 }
