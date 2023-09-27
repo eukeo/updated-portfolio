@@ -12,7 +12,7 @@ const PhotographyPage = () => {
     <div className="photography">
       <div className="topSection">
         <div className="leftContainer">
-          <img data-aos="zoom-in" src="https://i.imgur.com/VGhEAus.jpeg"></img>
+          <img data-aos="zoom-in" src="https://i.imgur.com/cXhoOoB.jpeg"></img>
         </div>
         <div className="rightContainer">
           <div className="imageContainer">
@@ -30,7 +30,7 @@ const PhotographyPage = () => {
             ></img>
             <img
               data-aos="zoom-in"
-              src="https://i.imgur.com/pRWTFpW.jpeg"
+              src="https://i.imgur.com/KFLy88o.jpeg"
             ></img>
           </div>
         </div>
@@ -48,7 +48,7 @@ const PhotographyPage = () => {
             ></img>
             <img
               data-aos="zoom-in"
-              src="https://i.imgur.com/KFLy88o.jpeg"
+              src="https://i.imgur.com/pRWTFpW.jpeg"
             ></img>
             <img
               data-aos="zoom-in"
@@ -57,7 +57,7 @@ const PhotographyPage = () => {
           </div>
         </div>
         <div className="rightContainer-2">
-          <img data-aos="zoom-in" src="https://i.imgur.com/cXhoOoB.jpeg"></img>
+          <img data-aos="zoom-in" src="https://i.imgur.com/VGhEAus.jpeg"></img>
         </div>
       </div>
     </div>
