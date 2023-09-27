@@ -1,27 +1,29 @@
-/* .photography {
+.photography {
+  border: 1px solid red;
+}
+
+.topSection {
+  border: 1px solid yellow;
+  width: 75%;
   margin: auto;
   flex-wrap: wrap;
   flex-direction: row;
-} */
+}
 
 .leftContainer {
   border: 1px solid cyan;
-  width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.photography img {
-  /* margin: auto; */
   width: 25%;
-  filter: grayscale(100%);
-  /* filter: blur(1px); */
-  /* border: px solid white; */
-  border-radius: 10px;
-  margin: 15px;
 }
 
-.photography img:hover {
-  transition: filter 0.8s ease; /* Add a smooth transition effect */
-  filter: grayscale(0%);
+.leftContainer img {
+  width: 100%;
+}
+
+.rightContainer {
+  border: 1px solid rgb(60, 182, 32);
+  width: 50%;
+}
+
+.rightContainer img {
+  width: 50%;
 }
