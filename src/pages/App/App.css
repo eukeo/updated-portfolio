@@ -19,7 +19,9 @@ html {
 }
 
 .home {
-  background: #080808;
+  /* background: #080808; */
+  background-image: url("https://i.imgur.com/WxiQNSa.png");
+  background-position: bottom;
 }
 .intro {
   background: #080808;
@@ -34,6 +36,6 @@ html {
 }
 
 .contact {
-  background-image: url("https://www.pnghq.com/wp-content/uploads/ocean-wave-png-free-images-with-transparent-background-1-68360.png");
+  /* background-image: url("https://www.pnghq.com/wp-content/uploads/ocean-wave-png-free-images-with-transparent-background-1-68360.png"); */
   background: #ffffff;
 }
