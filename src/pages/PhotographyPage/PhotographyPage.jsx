@@ -43,14 +43,17 @@ const PhotographyPage = () => {
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/V01P9lR.jpeg"
+              onClick={() => openModal("https://i.imgur.com/V01P9lR.jpeg")}
             ></img>
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/RCuh3FM.jpeg"
+              onClick={() => openModal("https://i.imgur.com/RCuh3FM.jpeg")}
             ></img>
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/KFLy88o.jpeg"
+              onClick={() => openModal("https://i.imgur.com/KFLy88o.jpeg")}
             ></img>
           </div>
         </div>
@@ -61,23 +64,31 @@ const PhotographyPage = () => {
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/xh8cZ0L.jpeg"
+              onClick={() => openModal("https://i.imgur.com/xh8cZ0L.jpeg")}
             ></img>
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/cMAuoRX.jpeg"
+              onClick={() => openModal("https://i.imgur.com/cMAuoRX.jpeg")}
             ></img>
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/pRWTFpW.jpeg"
+              onClick={() => openModal("https://i.imgur.com/pRWTFpW.jpeg")}
             ></img>
             <img
               data-aos="zoom-in"
               src="https://i.imgur.com/RLq9qW6.jpeg"
+              onClick={() => openModal("https://i.imgur.com/RLq9qW6.jpeg")}
             ></img>
           </div>
         </div>
         <div className="rightContainer-2">
-          <img data-aos="zoom-in" src="https://i.imgur.com/VGhEAus.jpeg"></img>
+          <img
+            data-aos="zoom-in"
+            src="https://i.imgur.com/VGhEAus.jpeg"
+            onClick={() => openModal("https://i.imgur.com/VGhEAus.jpeg")}
+          ></img>
         </div>
       </div>
       {isModalOpen && (
