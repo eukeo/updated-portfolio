@@ -36,7 +36,7 @@ form textarea {
 
 form button {
   padding: 10px;
-  background-color: #266399;
+  background-color: #2fb495;
   color: white;
   font-size: 16px;
   border: 0;
@@ -98,5 +98,5 @@ form button {
 }
 
 form > button:hover {
-  background-color: #c97514;
+  background-color: #278e76;
 }

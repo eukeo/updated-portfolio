@@ -14,13 +14,11 @@ const PhotographyPage = () => {
   const openModal = (imageSrc) => {
     setSelectedImage(imageSrc);
     setIsModalOpen(true);
-    console.log("opened");
   };
 
   const closeModal = () => {
     setSelectedImage(null);
     setIsModalOpen(false);
-    console.log("closed");
   };
 
   return (

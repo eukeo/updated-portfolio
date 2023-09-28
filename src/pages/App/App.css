@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: #030f1c;
+  background: #080808;
   color: white;
 }
 
@@ -19,18 +19,18 @@ html {
 }
 
 .home {
-  background: #030f1c;
+  background: #080808;
 }
 .intro {
-  background: #030f1c;
-  background-image: url("https://www.pngkey.com/png/full/336-3369684_home-web-design-education-website-background.png");
+  background: #080808;
+  /* background-image: url("https://www.pngkey.com/png/full/336-3369684_home-web-design-education-website-background.png"); */
   background-position: 0%;
 }
 .projects {
-  background: #030f1c;
+  background: #080808;
 }
 .photography {
-  background: #030f1c;
+  background: #080808;
 }
 
 .contact {
