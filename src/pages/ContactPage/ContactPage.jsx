@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactPage.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -7,6 +8,28 @@ const ContactPage = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_lp32fcc",
+        "template_bi2r8vm",
+        form.current,
+        "sZLn3BZyvomot5Sr-"
+      )
+      .then(
+        (result) => {
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="contactContainer">
@@ -35,22 +58,13 @@ const ContactPage = () => {
           </a>
         </div>
       </section>
-      <form data-aos="fade-down">
+      <form ref={form} onSubmit={sendEmail}>
         <h3>Contact</h3>
-        <input type="text" id="name" placeholder="Your Name" required></input>
-        <input type="email" id="email" placeholder="Email" required></input>
-        <input
-          type="text"
-          id="phone"
-          placeholder="Phone Number"
-          required
-        ></input>
-        <textarea
-          id="message"
-          rows="5"
-          placeholder="How can I help you?"
-        ></textarea>
-        <button type="submit">Send</button>
+        <input type="text" name="user_name" placeholder="Name" required />
+        <input type="email" name="user_email" placeholder="Email" required />
+        <input type="number" name="user_number" placeholder="Phone Number" />
+        <textarea name="message" placeholder="Message" required />
+        <input type="submit" value="Send" id="formButton" />
       </form>
     </div>
   );
