@@ -1,15 +1,21 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./ContactPage.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const ContactPage = () => {
+  const [emailModal, setEmailModal] = useState(false);
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   const form = useRef();
+
+  const closeModal = () => {
+    setEmailModal(false);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,6 +29,7 @@ const ContactPage = () => {
       )
       .then(
         (result) => {
+          setEmailModal(true);
           e.target.reset();
         },
         (error) => {
@@ -32,7 +39,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" onClick={closeModal}>
       <section className="contactInfo" data-aos="fade-down">
         <h3 className="info">Personal Links</h3>
         <img
@@ -58,7 +65,7 @@ const ContactPage = () => {
           </a>
         </div>
       </section>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} data-aos="fade-down">
         <h3>Contact</h3>
         <input type="text" name="user_name" placeholder="Name" required />
         <input type="email" name="user_email" placeholder="Email" required />
@@ -66,6 +73,17 @@ const ContactPage = () => {
         <textarea name="message" placeholder="Message" required />
         <input type="submit" value="Send" id="formButton" />
       </form>
+      {emailModal && (
+        <div className="modal" data-aos="zoom-out">
+          <div className="modalContent">
+            <h1 onClick={(e) => e.stopPropagation()}>Message sent!</h1>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png"
+              className="checkMark"
+            ></img>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
