@@ -10,7 +10,11 @@ const HomePage = () => {
 
   return (
     <div className="homeContainer">
-      <img src="https://i.imgur.com/6C8V6aB.png" className="myName"></img>
+      <img
+        src="https://i.imgur.com/1NtZqiQ.png"
+        className="myName"
+        data-aos="fade-in"
+      ></img>
     </div>
   );
 };
