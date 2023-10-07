@@ -81,6 +81,10 @@ const ContactPage = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png"
               className="checkMark"
             ></img>
+            <h5>
+              Please allow roughly 24 hours for Gabriel to respond to your
+              email. Thank you and have a wonderful day!
+            </h5>
           </div>
         </div>
       )}

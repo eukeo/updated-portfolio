@@ -1,13 +1,36 @@
 .homeContainer {
   width: 100%;
-  margin: auto;
   /* border: 1px solid aqua; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+  display: flex;
   flex-direction: row;
+  /* align-items: baseline; */
+  justify-content: space-evenly;
+  /* width: 100%; */
+  /* padding-top: 25px; */
+}
+
+.leftLogo {
+  width: 25%;
+  /* flex: 1; */
+  padding-left: 10%;
+  padding-top: 5%;
+  /* border: 1px solid yellow; */
 }
 
 .myName {
-  width: 70%;
-
+  margin: auto;
+  width: 100%;
   /* border: 1px solid red; */
+}
+
+.homePageText {
+  /* flex: 1; */
+  /* padding: 10px; */
+  margin: auto;
+  text-align: left;
+  width: 45%;
+  color: black;
+  /* border: 1px solid green; */
 }

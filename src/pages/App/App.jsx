@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "../../components/navbar/NavBar";
-import IntroPage from "../IntroPage/IntroPage";
 import Projects from "../ProjectsPage/ProjectsPage";
 import ContactPage from "../ContactPage/ContactPage";
 import HomePage from "../HomePage/HomePage";
@@ -8,13 +7,10 @@ import PhotographyPage from "../PhotographyPage/PhotographyPage";
 
 export default function App() {
   return (
-    <main id="home">
+    <main id="about">
       <NavBar />
-      <section className="home">
+      <section className="about">
         <HomePage />
-      </section>
-      <section className="intro" id="intro">
-        <IntroPage />
       </section>
       <section className="projects" id="projects">
         <Projects />

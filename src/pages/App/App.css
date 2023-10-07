@@ -4,8 +4,7 @@ html {
   color: white;
 }
 
-.home,
-.intro,
+.about,
 .projects,
 .photography,
 .contact {
@@ -18,14 +17,9 @@ html {
   text-align: center;
 }
 
-.home {
-  /* background: #080808; */
+.about {
+  background: white;
   background-position: bottom;
-}
-.intro {
-  background: #080808;
-  /* background-image: url("https://www.pngkey.com/png/full/336-3369684_home-web-design-education-website-background.png"); */
-  background-position: 0%;
 }
 .projects {
   background: #080808;
