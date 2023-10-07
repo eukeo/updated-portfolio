@@ -13,15 +13,19 @@
 }
 
 .homePageText {
-  padding-top: 1%;
+  padding-top: 10px;
   /* flex: 1; */
   /* padding: 10px; */
   margin: auto;
   text-align: center;
-  width: 45%;
+  width: 40%;
   color: black;
   /* font-size: 12px; */
   /* border: 1px solid green; */
+}
+
+.homePageText h4 {
+  padding-bottom: 15px;
 }
 
 .resumeLink {
