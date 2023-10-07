@@ -1,36 +1,41 @@
 .homeContainer {
   width: 100%;
-  /* border: 1px solid aqua; */
-  /* flex-wrap: wrap;
-  flex-direction: row; */
-  display: flex;
-  flex-direction: row;
-  /* align-items: baseline; */
-  justify-content: space-evenly;
-  /* width: 100%; */
-  /* padding-top: 25px; */
-}
-
-.leftLogo {
-  width: 25%;
-  /* flex: 1; */
-  padding-left: 10%;
-  padding-top: 5%;
-  /* border: 1px solid yellow; */
 }
 
 .myName {
+  padding-top: 10%;
+  color: black;
   margin: auto;
   width: 100%;
+  font-size: 54px;
   /* border: 1px solid red; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .homePageText {
+  padding-top: 1%;
   /* flex: 1; */
   /* padding: 10px; */
   margin: auto;
-  text-align: left;
+  text-align: center;
   width: 45%;
   color: black;
+  /* font-size: 12px; */
   /* border: 1px solid green; */
+}
+
+.resumeLink {
+  text-decoration: none;
+  padding: 12px;
+  background-color: #2fb495;
+  color: white;
+  font-size: 12px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.resumeLink:hover {
+  background-color: #278e76;
 }

@@ -10,26 +10,27 @@ const HomePage = () => {
 
   return (
     <div className="homeContainer">
-      <section className="leftLogo">
-        <img
-          src="https://i.imgur.com/TfmTCv8.png"
-          className="myName"
-          data-aos="fade-in"
-        ></img>
-      </section>
-      <section className="homePageText">
+      <h1 className="myName" data-aos="zoom-in">
+        HELLO, I'M GABRIEL GOMEZ
+      </h1>
+      <section className="homePageText" data-aos="fade-up">
         {/* <h1>About Me</h1> */}
-        <h5>
-          Welcome, my name is Gabriel Gomez and I am a 29-year-old Front-End
-          Developer living in Los Angeles, California. My passion for
-          technology, specifically Front-End Development, was sparked at a young
-          age through my interest and passion for art. After exploring various
-          career paths, I decided to attend General Assembly to immerse myself
-          in the field. The intensive three-month program presented numerous
-          challenges, but also proved to be highly rewarding. My experience
-          solidified my love for Front-End Development and my dedication to
-          creating a seamless user experience.
-        </h5>
+        <h4>
+          I'm Gabriel Gomez, a 29-year-old Front-End Developer based in Los
+          Angeles, California. My journey into technology and Front-End
+          Development began with a deep-rooted passion for art. After exploring
+          diverse career paths, I pursued a comprehensive education at General
+          Assembly—a rigorous three-month program that not only posed challenges
+          but also reinforced my commitment to crafting exceptional user
+          experiences.
+        </h4>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vSG_u6o5FJqckN50az6h5NaaLIMKjy4y3JtolpViCDd7-WhNU0SJb_PZ6izUPxsoDIpr7C5DWty9Uto/pub"
+          className="resumeLink"
+          target="_blank"
+        >
+          View Resume
+        </a>
       </section>
     </div>
   );
