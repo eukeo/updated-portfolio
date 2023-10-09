@@ -70,7 +70,7 @@ const ContactPage = () => {
         <input type="text" name="user_name" placeholder="Name" required />
         <input type="email" name="user_email" placeholder="Email" required />
         <input type="number" name="user_number" placeholder="Phone Number" />
-        <textarea name="message" placeholder="Message" required />
+        <textarea rows="5" name="message" placeholder="Message" required />
         <input type="submit" value="Send" id="formButton" />
       </form>
       {emailModal && (
