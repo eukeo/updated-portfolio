@@ -37,6 +37,8 @@
 
 .projectLinks img {
   width: 5%;
+  margin: 0px 15px 10px 15px;
+  opacity: 70%;
 }
 
 .techUsed img {
@@ -97,4 +99,9 @@
   border-bottom: 15px solid transparent;
   border-bottom: 15px solid red;
   right: -15px;
+}
+
+.projectLinks img:hover {
+  opacity: 100%;
+  transform: scale(1.1);
 }
