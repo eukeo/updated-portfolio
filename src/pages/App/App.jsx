@@ -22,7 +22,7 @@ export default function App() {
         <ContactPage />
       </section>
       <section className="rest">
-        <h6>Last Updated: October 9th, 2023</h6>
+        <h6>Last Updated: October 10th, 2023</h6>
       </section>
     </main>
   );

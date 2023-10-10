@@ -11,11 +11,24 @@ const NavBar = () => {
       left: 0,
       top: location - 65,
     });
-    console.log(location);
+  };
+
+  const logoClick = (e) => {
+    window.scrollTo({
+      left: 0,
+      top: 0, // Scroll to the top of the page
+      behavior: "smooth", // Add smooth scrolling behavior
+    });
   };
 
   return (
     <nav className="navbar sticky">
+      <img
+        src="https://bestoverheaddoorssc.com/wp-content/uploads/2020/01/47-471311_our-logo-google-g-logo-png-white.png"
+        className="logo"
+        onClick={logoClick}
+        alt="logo"
+      ></img>
       <div>
         {links.map((link) => {
           return (
