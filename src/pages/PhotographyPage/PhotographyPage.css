@@ -24,8 +24,8 @@
 .modal-content img {
   border: 3px solid white;
   border-radius: 5px;
-  max-width: 40%;
-  max-height: 50%;
+  width: 40%;
+  height: 50%;
 }
 
 .modal-content .close-button {
@@ -107,4 +107,40 @@
   cursor: pointer;
   transition: filter 0.8s ease;
   filter: grayscale(0%);
+}
+
+@media only screen and (max-width: 980px) {
+  .photography img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .leftContainer {
+    width: 140%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .rightContainer-2 {
+    margin-right: 20px;
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .topSection,
+  .bottomSection {
+    width: 75%;
+    margin-right: 35px;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  /* .modal,
+  .modal-content, */
+  .modal-content img {
+    width: 100%;
+  }
 }
