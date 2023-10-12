@@ -43,3 +43,21 @@
 .resumeLink:hover {
   background-color: #278e76;
 }
+
+@media only screen and (max-width: 980px) {
+  .homeContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .homePageText {
+    width: 80%;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .myName {
+    padding-top: 100px;
+  }
+}
