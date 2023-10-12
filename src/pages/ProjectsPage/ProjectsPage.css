@@ -134,3 +134,15 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .techUsed img {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .projectLinks img {
+    width: 7%;
+  }
+}

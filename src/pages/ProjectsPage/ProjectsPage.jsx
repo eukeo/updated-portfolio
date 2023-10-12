@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="techUsed">
             <img src="https://icons.veryicon.com/png/o/internet--web/internet-simple-icon/api-management.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfQh_ddm7llO-DxG4ASzBzzXM8UhQKi4IRQpIDVSk17aP3Q_k9JOgoNLLD8z6zq7Jm9Q&usqp=CAU"></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"></img>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></img>
             <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"></img>
@@ -72,7 +72,7 @@ const Projects = () => {
           <div className="techUsed">
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfQh_ddm7llO-DxG4ASzBzzXM8UhQKi4IRQpIDVSk17aP3Q_k9JOgoNLLD8z6zq7Jm9Q&usqp=CAU"></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"></img>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></img>
           </div>
@@ -108,7 +108,7 @@ const Projects = () => {
           <div className="techUsed">
             <img src="https://icons.veryicon.com/png/o/internet--web/internet-simple-icon/api-management.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"></img>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfQh_ddm7llO-DxG4ASzBzzXM8UhQKi4IRQpIDVSk17aP3Q_k9JOgoNLLD8z6zq7Jm9Q&usqp=CAU"></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"></img>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"></img>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></img>
             <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"></img>
